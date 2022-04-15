@@ -1,13 +1,3 @@
-while getopts b:l:t: flag
-do
-    case "${flag}" in
-        b) binary=${OPTARG};; #to add a binary like reg pwninit
-        l) libc_file=${OPTARG};; #to add a libc like reg pwninit
-        t) template=${OPTARG};;
-    esac
-done
-
-
 #!/bin/bash
 
 while getopts b:l: flag
