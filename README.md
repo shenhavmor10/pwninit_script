@@ -13,7 +13,8 @@ you have to do a few things in order to setup this dumb script -
 1. Firsly download the real pwninit script from - https://github.com/io12/pwninit
 2. clone the repo or just take the file itself and place it somewhere.
 3. in the script itself change those values : <pwninit> to the path to your pwninit exe and <pwninit_patched> to the path to your pwninit_patched exe.
-4. for the guys that want to use the script with one write in the terminal from anywhere of "pwninit.sh" just take the bash script and place in the /usr/local/bin
+4. if you want your own template file you can do that aswell by changing <template_path>
+5. for the guys that want to use the script with one write in the terminal from anywhere of "pwninit.sh" just take the bash script and place in the /usr/local/bin
    folder
   
 
@@ -23,7 +24,6 @@ USAGE --
 simply right in any folder you want pwninit.sh and then you have the parameters you can add so you have :
 1. -b (--binary of pwninit you put there the binary you want to init)
 2. -l (--libc of pwninit you put there the libc you want to init)
-3. -t (--template-path of pwninit you put there the template you want to use as a template)
   
 I know this script is not the best and takes some time to set it up but it may be a game changer for some of us newbies. 
 Have fun and lemme know what you think about it :) 
